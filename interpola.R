@@ -2,7 +2,6 @@
 # para su evaluación y prospección
 # Programa de Apoyo a Proyectos de Investigación e Innovación Tecnológica (PAPIIT), Clave IN112823
 
-
 ## Script para interpolar los datos de profundidad generados por el sonar EchoMap y preprocesados
 # con el script procesa_garmin.R
 
