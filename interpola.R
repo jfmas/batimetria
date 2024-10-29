@@ -1,6 +1,6 @@
-### Proyecto Azolvamiento y eutroficación en presas periurbanas de zonas templadas de México: contribuciones
-# para su evaluación y prospección
-# Programa de Apoyo a Proyectos de Investigación e Innovación Tecnológica (PAPIIT), Clave IN112823
+### Proyecto Azolvamiento y eutroficación en presas periurbanas de zonas templadas de México: 
+### contribuciones para su evaluación y prospección
+### Programa de Apoyo a Proyectos de Investigación e Innovación Tecnológica (PAPIIT), Clave IN112823
 
 ## Script para interpolar los datos de profundidad generados por el sonar EchoMap y preprocesados
 # con el script procesa_garmin.R
@@ -14,6 +14,12 @@ library(raster)
 
 # Assume df is your dataframe containing lon, lat, and depth columns
 # df <- data.frame(lon = ..., lat = ..., depth = ...)
+
+# corriendo primero el script procesa_garmin
+df <- data
+head(df)
+
+df <- na.omit(df)
 
 # Create a grid for interpolation
 lon_range <- seq(min(df$lon), max(df$lon), length.out = 100)
