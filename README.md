@@ -6,6 +6,6 @@ Conjunto de scripts de R que permiten importar y procesar datos de las sondas Ec
 
 El script procesa_garmin.R lee los archivos GPX producidos por la ecosonda, recupera los datos de fecha (date), 
 hora (time), latitud (lat), longitud (lon), temperatura (temp) y profundidad (depth), crea una tabla dataframe
-y lla salva en formato CSV.
+y la salva en formato CSV.
 
-El script interpola.R interpola el valor de profundidad para generar un raster del modelo batimátrico.
+El script interpola.R interpola el valor de profundidad para generar un raster del modelo batimétrico.
