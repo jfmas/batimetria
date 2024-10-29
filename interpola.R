@@ -18,7 +18,6 @@ library(raster)
 # corriendo primero el script procesa_garmin
 df <- data
 head(df)
-
 df <- na.omit(df)
 
 # Create a grid for interpolation
